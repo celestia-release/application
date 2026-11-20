@@ -1,0 +1,12 @@
+{
+  "app_id": "volc_engine",
+  "name": "小凯(Volc Engine)",
+  "action": "volc_engine",
+  "entry_so": "lib/libvolc_engine_app.so",
+  "entry_symbol": "app_entry_start_volc_engine",
+  "version": "1.0.0",
+  "icon_kind": "chat",
+  "icon_glyph": "",
+  "icon_color": "#C77BFF",
+  "icon_color2": "#8A2BE2"
+}

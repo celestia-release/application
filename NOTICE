@@ -1,0 +1,30 @@
+Celestia — application
+Copyright 2024-2026 Guangzhou Anyka Microelectronics Co., Ltd.
+
+This product includes software developed by
+Guangzhou Anyka Microelectronics Co., Ltd. and the Celestia project.
+
+Licensed under the Apache License, Version 2.0 (see the LICENSE file).
+
+--------------------------------------------------------------------------------
+Third-party components
+--------------------------------------------------------------------------------
+
+This repository references third-party open-source libraries that are located
+in the separate `third_party` repository. Each such library is distributed
+under its own license; see `third_party/THIRD_PARTY_NOTICES.md` for the full
+inventory and license texts.
+
+The following PRE-COMPILED, THIRD-PARTY / COMMERCIAL binaries may be present in
+this repository and are NOT covered by the Apache-2.0 license above. They are
+the property of their respective owners and are subject to separate license
+terms. They must be removed or replaced with properly licensed components
+before public redistribution:
+
+  - cloud/aliyun/aliyun_sdk/lib/*.a         Alibaba Cloud IoT SDK (commercial)
+  - cloud/volc_engine/lib/libVolcEngineRTCLite.so
+                                            VolcEngine RTC SDK (commercial)
+
+NOTE: Cloud service credentials (access keys, tokens) must never be committed to
+this repository. Provide them at runtime via configuration files or environment
+variables.

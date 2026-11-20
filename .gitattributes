@@ -1,0 +1,9 @@
+# Embedded rootfs scripts must use LF (CRLF breaks BusyBox ash on device).
+*.sh text eol=lf
+**/usr/sbin/*.sh text eol=lf
+**/etc/config/*.sh text eol=lf
+**/etc/init.d/rcS text eol=lf
+**/etc/init.d/rc.local text eol=lf
+**/etc/inittab text eol=lf
+* text=auto eol=lf
+*.bash text eol=lf

@@ -1,0 +1,12 @@
+{
+  "app_id": "ipc_camera",
+  "name": "带屏摄像机(IPC Camera)",
+  "action": "ipc_camera",
+  "entry_so": "lib/libipc_camera.so",
+  "entry_symbol": "app_entry_start_ipc_camera",
+  "version": "1.0.0",
+  "icon_kind": "screen_cam",
+  "icon_glyph": "",
+  "icon_color": "#5AC8FA",
+  "icon_color2": "#2F7CF6"
+}

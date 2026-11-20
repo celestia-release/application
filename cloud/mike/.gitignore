@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
+# Vendor Xiaomi MIKE SDK drops (vX.Y.Z): headers, libmike.a, demo, third-party copies.
+# Keep this Makefile tracked; do not commit the SDK tree.
+v*/

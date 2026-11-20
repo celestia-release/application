@@ -1,0 +1,12 @@
+{
+  "app_id": "audio_algo",
+  "name": "音频算法(Audio Algo)",
+  "action": "audio_algo",
+  "entry_so": "lib/libaudio_algo.so",
+  "entry_symbol": "app_entry_start_audio_algo",
+  "version": "1.0.0",
+  "icon_kind": "glyph",
+  "icon_glyph": "audio",
+  "icon_color": "#63E6A5",
+  "icon_color2": "#22A24E"
+}

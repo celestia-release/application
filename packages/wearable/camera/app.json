@@ -1,0 +1,10 @@
+{
+  "app_id": "camera",
+  "name": "Camera",
+  "action": "camera",
+  "icon": "res/icon.png",
+  "entry_so": "lib/libcamera_app.so",
+  "entry_symbol": "app_entry_start_camera",
+  "destroy_symbol": "wearable_camera_ui_destroy",
+  "version": "1.0.0"
+}

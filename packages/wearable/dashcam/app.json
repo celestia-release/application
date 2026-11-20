@@ -1,0 +1,10 @@
+{
+  "app_id": "dashcam",
+  "name": "Dashcam",
+  "action": "dashcam",
+  "icon": "res/icon.png",
+  "entry_so": "lib/libdashcam_app.so",
+  "entry_symbol": "app_entry_start_dashcam",
+  "destroy_symbol": "dashcam_ui_destroy",
+  "version": "1.0.0"
+}

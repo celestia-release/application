@@ -1,0 +1,12 @@
+{
+  "app_id": "setting",
+  "name": "设置(Settings)",
+  "action": "setting",
+  "entry_so": "lib/libsetting_app.so",
+  "entry_symbol": "app_entry_start_setting",
+  "version": "1.0.0",
+  "icon_kind": "glyph",
+  "icon_glyph": "settings",
+  "icon_color": "#A7ADBB",
+  "icon_color2": "#6E7686"
+}

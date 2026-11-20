@@ -1,0 +1,6 @@
+
+
+# Commercial cloud SDK binaries. Not covered by Apache-2.0.
+cloud/aliyun/aliyun_sdk/lib/*.a
+cloud/volc_engine/lib/*.so
+cloud/**/*.bak

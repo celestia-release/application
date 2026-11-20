@@ -1,0 +1,12 @@
+{
+  "app_id": "camera",
+  "name": "相机(Camera)",
+  "action": "camera",
+  "entry_so": "lib/libcamera_app.so",
+  "entry_symbol": "app_entry_start_camera",
+  "version": "1.0.0",
+  "icon_kind": "camera",
+  "icon_glyph": "",
+  "icon_color": "#FFB340",
+  "icon_color2": "#F07C1F"
+}
